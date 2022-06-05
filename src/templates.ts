@@ -12,4 +12,9 @@ export const templates: Template[] = [
     path: path.resolve(__dirname, "templates/typescript-app"),
     name: "Simple Typescript App with jest, husky, linter, prettier.",
   },
+  {
+    id: 2,
+    path: path.resolve(__dirname, "templates/typescript-package"),
+    name: "Simple Typescript Package with jest, husky, linter, prettier.",
+  },
 ];

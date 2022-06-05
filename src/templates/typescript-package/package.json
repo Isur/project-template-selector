@@ -1,19 +1,26 @@
 {
-  "name": "typescript-starter-app",
+  "name": "typescript-starter-package",
   "version": "0.0.1",
   "description": "Simple typescript starter, with husky, jest, eslint.",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "export": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "bin": {
+    "typescript-starter": "dist/index.js"
+  },
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch --coverage",
-    "start": "npm run build && node ./dist/src/index.js",
+    "start": "npm run build && node ./dist/index.js",
     "dev": "nodemon ./src/index.ts",
     "build": "rimraf dist && tsc",
     "lint": "eslint ./src --ext .ts --max-warnings=0",
     "lint:fix": "eslint ./src --ext .ts --fix",
     "prepare": "husky install",
-    "precommit": "npm run lint && npm run test",
-    "prod": "node src/index.js"
+    "precommit": "npm run lint && npm run test"
   },
   "keywords": ["typescript", "starter", "husky", "jest", "eslint", "prettier"],
   "author": "Isur",

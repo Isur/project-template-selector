@@ -20,3 +20,4 @@ Available templates are in `/src/templates`.
 ## List of templates:
 
 - `/src/templates/typescript-app` - Typescript app with husky, jest, eslint, prettier, editorconfig.
+- `/src/templates/typescript-package` - Typescript package with husky, jest, eslint, prettier, editorconfig.
