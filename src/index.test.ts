@@ -1,10 +1,5 @@
-import { hello } from "./";
-
-describe("Index Test", () => {
-  it("Should test index function", () => {
-    const expected = "Hello there!";
-    const result = hello();
-
-    expect(result).toBe(expected);
+describe("Tests", () => {
+  it("Tests should exists", () => {
+    expect(true).toBe(true);
   });
 });

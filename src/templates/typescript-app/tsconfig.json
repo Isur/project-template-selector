@@ -1,6 +1,6 @@
 {
-    "include": ["./src/**/*"],
-    "exclude": ["./src/**/*.test.ts", "./src/templates/*"],
+    "include": ["./src/**/*", "./package.json"],
+    "exclude": ["./src/**/*.test.ts"],
     "compilerOptions": {
       "outDir": "./dist",
       "noImplicitAny": true,
@@ -9,7 +9,6 @@
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "sourceMap": true,
-      "declaration": true,
       "module": "CommonJS",
       "target": "ESNext",
       "allowJs": true,

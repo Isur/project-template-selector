@@ -1,33 +1,21 @@
 {
-  "name": "@isur/project-template-selector",
+  "name": "typescript-starter",
   "version": "0.0.1",
-  "description": "Select project template",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "export": "dist/index.js",
-  "files": [
-    "dist/"
-  ],
+  "description": "Simple typescript starter, with husky, jest, eslint.",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch --coverage",
-    "start": "npm run build && node ./dist/index.js",
-    "build": "rimraf dist && tsc && cp -r src/templates dist/templates",
+    "start": "npm run build && node ./dist/src/index.js",
+    "build": "rimraf dist && tsc",
     "lint": "eslint ./src --ext .ts --max-warnings=0",
     "lint:fix": "eslint ./src --ext .ts --fix",
     "prepare": "husky install",
     "precommit": "npm run lint && npm run test",
-    "prepublish": "npm run build"
+    "prod": "node src/index.js"
   },
-  "bin": {
-    "typescript-starter": "dist/index.js"
-  },
-  "keywords": [
-    "typescript",
-    "starter"
-  ],
+  "keywords": ["typescript", "starter", "husky", "jest", "eslint", "prettier"],
   "author": "Isur",
-  "private": false,
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.5.1",
