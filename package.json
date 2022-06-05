@@ -1,6 +1,6 @@
 {
   "name": "@isur/project-template-selector",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Select project template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,5 +52,8 @@
     "ts-jest": "^28.0.3",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
   }
 }

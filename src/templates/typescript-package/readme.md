@@ -33,3 +33,11 @@ Start with reload on changes
 ```bash
 npm run dev
 ```
+
+## Env
+
+Evironment variables loaded with `dotenv`.
+
+Example data required for local development is in `.env.dev`.
+
+Production data in `.env`.
