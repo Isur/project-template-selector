@@ -74,6 +74,9 @@ function copyFiles(from: string, to: string) {
   const files = fs.readdirSync(from, { withFileTypes: true });
   for (const file of files) {
     const source = path.join(from, file.name);
+    if (file.name === "gitignore") {
+      file.name = ".gitignore";
+    }
     const dest = path.join(to, file.name);
     if (file.isDirectory()) {
       copyFiles(source, dest);
