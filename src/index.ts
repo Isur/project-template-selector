@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 import { Menu } from "./menu";
 import { templates } from "./templates";

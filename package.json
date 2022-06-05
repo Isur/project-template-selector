@@ -1,6 +1,6 @@
 {
   "name": "@isur/project-template-selector",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Select project template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
