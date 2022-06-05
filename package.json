@@ -1,6 +1,6 @@
 {
   "name": "@isur/project-template-selector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Select project template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,9 @@
     "starter"
   ],
   "author": "Isur",
+  "repository": {
+    "url": "https://github.com/Isur/project-template-selector"
+  },
   "private": false,
   "license": "ISC",
   "devDependencies": {
