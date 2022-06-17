@@ -1,0 +1,24 @@
+__pycache__/
+
+build/
+dist/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editors
+.idea
+.vscode

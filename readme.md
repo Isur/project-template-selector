@@ -9,10 +9,12 @@ Select one of available templates and choose path to folder where you want to us
 
 ```bash
 1. Simple Typescript App with jest, husky, linter, prettier.
-Select index of template you want to use: 1
-Selected: Simple Typescript App with jest, husky, linter, prettier.
-Where to create project?../Test/
-Template Simple Typescript App with jest, husky, linter, prettier. prepared at /home/isur/Projects/Test.
+2. Simple Typescript Package with jest, husky, linter, prettier.
+3. Simple Python App with black, pytest, coverage.
+Select index of template you want to use: 3
+Selected: Simple Python App with black, pytest, coverage.
+Where to create project?../test
+Template Simple Python App with black, pytest, coverage. prepared at /home/isur/Projects/Private/test.
 ```
 
 Available templates are in `/src/templates`.

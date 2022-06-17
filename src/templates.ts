@@ -17,4 +17,9 @@ export const templates: Template[] = [
     path: path.resolve(__dirname, "templates/typescript-package"),
     name: "Simple Typescript Package with jest, husky, linter, prettier.",
   },
+  {
+    id: 3,
+    path: path.resolve(__dirname, "templates/python-poetry-app"),
+    name: "Simple Python App with black, pytest, coverage.",
+  },
 ];
